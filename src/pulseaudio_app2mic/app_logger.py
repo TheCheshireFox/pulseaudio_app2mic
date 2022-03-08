@@ -2,7 +2,6 @@ import logging
 import datetime
 
 from pathlib import Path
-import pathlib
 
 logging.addLevelName(logging.INFO, 'INFO')
 logging.addLevelName(logging.WARNING, 'WARN')
@@ -10,7 +9,7 @@ logging.addLevelName(logging.ERROR, 'ERR ')
 logging.addLevelName(logging.CRITICAL, 'CRIT')
 
 def create_logger(name: str) -> logging.Logger:
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger(name)
 
     if logger.hasHandlers():
         return logger
@@ -23,7 +22,7 @@ def create_logger(name: str) -> logging.Logger:
     ch.setLevel(logging.INFO)
     ch.setFormatter(formatter)
 
-    path = pathlib.Path.home() / Path('.local/pulseaudio_app2mic/logs')
+    path = Path.home() / Path('.local/pulseaudio_app2mic/logs')
     if not path.exists():
         path.mkdir(parents=True, exist_ok=True)
 

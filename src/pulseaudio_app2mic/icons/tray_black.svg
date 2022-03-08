@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g data-name="Layer 2" id="svg_1" transform="rotate(90, 12, 12)">
+   <g data-name="options-2" id="svg_2">
+    <rect height="24" id="svg_3" opacity="0" transform="rotate(90 12 12)" width="24"/>
+    <path d="m19,9a3,3 0 0 0 -2.82,2l-13.18,0a1,1 0 0 0 0,2l13.18,0a3,3 0 1 0 2.82,-4zm0,4a1,1 0 1 1 1,-1a1,1 0 0 1 -1,1zm-16,-6l1.18,0a3,3 0 0 0 5.64,0l11.18,0a1,1 0 0 0 0,-2l-11.18,0a3,3 0 0 0 -5.64,0l-1.18,0a1,1 0 0 0 0,2zm4,-2a1,1 0 1 1 -1,1a1,1 0 0 1 1,-1zm14,12l-7.18,0a3,3 0 0 0 -5.64,0l-5.18,0a1,1 0 0 0 0,2l5.18,0a3,3 0 0 0 5.64,0l7.18,0a1,1 0 0 0 0,-2zm-10,2a1,1 0 1 1 1,-1a1,1 0 0 1 -1,1z" id="svg_4"/>
+   </g>
+  </g>
+ </g>
+</svg>
